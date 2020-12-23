@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <g id="Group_1" data-name="Group 1" transform="translate(-1841 842)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(1841 -842)" fill="#9a672c" stroke="#707070" stroke-width="1">
+      <rect width="600" height="200" stroke="none"/>
+      <rect x="0.5" y="0.5" width="599" height="199" fill="none"/>
+    </g>
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(1841 -842)" fill="#9a672c" stroke="#707070" stroke-width="1">
+      <rect width="1200" height="400" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1199" height="399" fill="none"/>
+    </g>
+    <text id="SmartForest" transform="translate(1969 -590)" fill="#fff" font-size="140" font-family="Krungthep"><tspan x="0" y="0">SmartForest</tspan></text>
+  </g>
+</svg>
