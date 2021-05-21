@@ -8,18 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jay-guro/resume.jasonguro.com.git"
+    "url": "git+https://github.com/jay-guro/portfolio.jasonguro.com.git"
   },
-  "keywords": [
-    "Resume"
-  ],
   "author": "Jason Guro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jay-guro/resume.jasonguro.com/issues"
+    "url": "https://github.com/jay-guro/portfolio.jasonguro.com/issues"
   },
-  "homepage": "https://github.com/jay-guro/resume.jasonguro.com#readme",
+  "homepage": "https://github.com/jay-guro/portfolio.jasonguro.com#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "bulma": "^0.9.2"
   }
 }
