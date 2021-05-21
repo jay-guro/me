@@ -314,14 +314,17 @@ input[name="carousel"] {
 
 /****************************************************************************/
 
-li .is-active a span {
+/* li .is-active a span {
     color: #fff;
 }
 
 ul li {
     list-style: none;
     margin-bottom: 1rem;
-}
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
 
 /****************************************************************************/
 
@@ -387,3 +390,55 @@ ul li {
     background-color: #48c774 !important;
     border-color: #48c774 !important;
 } */
+
+.title,
+.subtitle {
+    text-align: center;
+    overflow: hidden;
+    overflow-wrap: normal;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+/* @media screen and (min-width: 769px), print {
+.tile:not(.is-child) {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+    align-content: center !important;
+    align-items: stretch !important;
+    justify-content: center !important;
+}
+} */
+
+/****************************************************************************/
+
+
+@media screen and (max-width: 768px) {
+  li:not(.is-active) > a > span:not(.icon) {
+    visibility: hidden;
+    position:  absolute;
+  }
+
+    li.is-active > a > span:not(.icon) {
+    visibility: hidden;
+    position:  absolute;
+  }
+
+
+  nav.tabs li:not(.is-active) {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+  }
+
+  .tabs .icon {
+    margin-left: 0.5em;
+  }
+}
+
+.tabs li {
+  transition: flex-grow 1s ease;
+}
