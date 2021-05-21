@@ -1,3 +1,2 @@
-# My Site
-
-- Implement Burger Nav Mobile Menu
+# resume.jasonguro.com
+JasonGuro | Resume
