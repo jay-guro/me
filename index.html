@@ -17,41 +17,57 @@
         <meta name="description" content="Jason Guro | Resume"/>
         <link href="img/favicon.png" rel="shortcut icon" type="image/png" />
         <link rel="stylesheet" href="css/style.css" />
-        <script src="https://kit.fontawesome.com/9bdc906322.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <script type="text/javascript" src="js/all.min.js"></script>
     </head>
     <body>
-        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
-            <div class="container">
-                <div class="navbar-brand">
-                    <img class="avatar" src="img/avatars/me.png" style="width:60px">
-                    <a class="navbar-item" href="https://www.jasonguro.com">JASON GURO</a>
-                    <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="#navMenu">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    </a>
-                </div>
-                <div class="navbar-menu" id="navMenu">
-                    <div class="navbar-start"></div>
-                    <div class="navbar-end">
-                        <div class="navbar-item"><a class="button is-success is-rounded">DOWNLOAD RESUME</a></div>
+        <nav class="navbar is-dark is-large">
+            <div class="navbar-brand">
+                <a class="navbar-item" target="_blank" href="https://www.jasonguro.com">
+                <img src="img/avatars/me.png" alt="Jason Guro" width="30" height="30"> 
+                </a>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="field is-grouped">
+                        <p class="control">
+                            <a class="button is-rounded is-outlined is-success" target="_blank" href="https://resume.jasonguro.com">
+                            <span class="icon">
+                            <i class="fas fa-file-download"></i>
+                            </span>
+                            <span style="font-weight: bold;">
+                            DOWNLOAD RESUME
+                            </span>
+                            </a>
+                        </p>
+                        <p class="control">
+                            <a class="button is-rounded is-success" href="mailto:jason@loudway.com">
+                            <span class="icon">
+                            <i class="fas fa-envelope"></i>
+                            </span>
+                            <span style="font-weight: bold;">CONTACT ME</span>
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
         </nav>
-        <section class="hero is-dark is-fullheight has-text-centered">
+       <section class="hero is-dark is-fullheight">
             <div class="hero-body">
-            <div class="container">
-                <h1 class="title is-size-1 pt-0 pb-5">MY RESUME</h1>
-                <h2 class="subtitle is-size-4-desktop">I DESIGN AND CODE BEAUTIFULLY SIMPLE THINGS, AND I LOVE WHAT I DO.</h2>
-                <h2 class="subtitle is-size-6-desktop">AGE: 21 | US CITIZEN | AVAILABLE AS NEEDED - OPEN TO OFFERS</h2>
-                <br>
-                <div class="columns is-centered">
-                    <br>
-                    <div class="column">
-                        <br>
-                        <div class="tabs is-boxed is-centered is-medium pt-5 pb-5">
+                <div class="container has-text-centered">
+                    <p class="title is-size-1 pb-5" style="color: #48c774; font-weight: bold;">
+                        MY RESUME
+                    </p>
+                    <p class="subtitle is-size-4" style="font-weight: bold;">
+                         I DESIGN AND CODE BEAUTIFULLY SIMPLE THINGS, AND I LOVE WHAT I DO.
+                    </p>
+                </div>
+            </div>
+            <div class="hero-foot">
+                <nav class="tabs is-boxed is-fullwidth">
+                    <div class="container">
+                        <div class="tabs is-boxed is-centered is-medium pb-5">
                             <ul>
                                 <li data-target="educationhistory" class="is-active">
                                     <a>
@@ -91,7 +107,6 @@
                                 </li>
                             </ul>
                         </div>
-                        <br>
                         <div id="tab-content">
                             <div id="educationhistory">
                                 <br>
@@ -848,44 +863,47 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </nav>
+                <br>
             </div>
         </section>
-        <section class="hero is-dark">
-            <div class="content has-text-centered">
-                <button class="button is-medium is-facebook" style="width: 50px;" target=”_blank” onclick="window.location.href='https://www.facebook.com/jguro21';">
+        <section class="section is-sm is-dark" style="background-color:#363636">
+            <div class="has-text-centered">
+                <button class="button is-large is-facebook" style="width: 50px;" target=”_blank” onclick="window.location.href='https://www.facebook.com/jguro21';">
                 <i class="fab fa-facebook-f fa-lg"></i>
                 </button>
-                <button class="button is-medium is-instagram" style="width: 50px;" target=”_blank” onclick="window.location.href='https://www.instagram.com/jason.guro';">
+                <button class="button is-large is-instagram" style="width: 50px;" target=”_blank” onclick="window.location.href='https://www.instagram.com/jason.guro';">
                 <i class="fab fa-instagram fa-lg"></i>
                 </button>
-                <button class="button is-medium is-facebook-messenger" style="width: 50px;" target=”_blank” onclick="window.location.href='https://m.me/jguro21';">
+                <button class="button is-large is-facebook-messenger" style="width: 50px;" target=”_blank” onclick="window.location.href='https://m.me/jguro21';">
                 <i class="fab fa-facebook-messenger fa-lg"></i>
                 </button>
-                <button class="button is-medium is-snapchat" style="width: 50px;" target=”_blank” onclick="window.location.href='https://www.snapchat.com/add/jayguro210';">
+                <button class="button is-large is-snapchat" style="width: 50px;" target=”_blank” onclick="window.location.href='https://www.snapchat.com/add/jayguro210';">
                 <i class="fab fa-snapchat-ghost fa-lg"></i>
                 </button>
-                <button class="button is-medium is-telegram" style="width: 50px;" target=”_blank” onclick="window.location.href='https://t.me/jayguro';">
+                <button class="button is-large is-telegram" style="width: 50px;" target=”_blank” onclick="window.location.href='https://t.me/jayguro';">
                 <i class="fab fa-telegram fa-lg"></i>
                 </button> 
-                <button class="button is-medium is-whatsapp" style="width: 50px;" target=”_blank” onclick="window.location.href='https://api.whatsapp.com/send?phone=13053087734';">
+                <button class="button is-large is-whatsapp" style="width: 50px;" target=”_blank” onclick="window.location.href='https://api.whatsapp.com/send?phone=13053087734';">
                 <i class="fab fa-whatsapp fa-lg"></i>
                 </button>
-                <button class="button is-medium is-linkedin" style="width: 50px;" target=”_blank” onclick="window.location.href='https://www.linkedin.com/in/jayguro';">
+                <button class="button is-large is-linkedin" style="width: 50px;" target=”_blank” onclick="window.location.href='https://www.linkedin.com/in/jayguro';">
                 <i class="fab fa-linkedin-in fa-lg"></i>
                 </button>
-                <button class="button is-medium is-twitter" style="width: 50px;" target=”_blank” onclick="window.location.href='https://twitter.com/jasonguro';">
+                <button class="button is-large is-twitter" style="width: 50px;" target=”_blank” onclick="window.location.href='https://twitter.com/jasonguro';">
                 <i class="fab fa-twitter fa-lg"></i>
                 </button>
-                <button class="button is-medium is-soundcloud mb-5" style="width: 50px;" target=”_blank” onclick="window.location.href='https://soundcloud.com/jasonguro';">
+                <button class="button is-large is-soundcloud mb-5" style="width: 50px;" target=”_blank” onclick="window.location.href='https://soundcloud.com/jasonguro';">
                 <i class="fab fa-soundcloud fa-lg"></i>
                 </button>
-                <button class="button is-medium is-mail" style="width: 50px;" target=”_blank” onclick="window.location.href='mailto: jason@loudway.com';">
+                <button class="button is-large is-mail" style="width: 50px;" target=”_blank” onclick="window.location.href='mailto: jason@loudway.com';">
                 <i class="fas fa-envelope fa-lg"></i>
                 </button>
                 <br>
-                <p><a href="https://resume.jasonguro.com">JASON GURO</a>
-                    <span  class="icon has-white-text" style="vertical-align: middle"><i class="far fa-copyright"></i></span> ALL RIGHTS RESERVED 2021
+                <p style="color:#fff; font-weight:bold;">
+                    <a target=”_blank” href="https://www.jasonguro.com" style="color:#48c774; font-weight:bold;">JASON GURO</a>
+                    <span><i class="far fa-copyright"></i></span> ALL RIGHTS RESERVED
+                    <script type="text/javascript">document.write(new Date().getFullYear());</script>
                 </p>
                 <br>
             </div>
