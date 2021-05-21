@@ -1,0 +1,384 @@
+.avatar {
+    margin: 2rem 0;
+    width: 150px;
+}
+
+@media screen and (min-width: 769px) {
+    .avatar {
+        width: 250px;
+    }
+}
+
+.section.testimonials .testimonial-block {
+    margin-bottom: 2rem;
+}
+
+.section.testimonials .testimonial-block img.avatar {
+    margin: 2.5rem auto 2rem;
+    max-width: 96px;
+    height: auto;
+    border-radius: 100px;
+}
+
+@media screen and (min-width: 769px) {
+    .section.testimonials .testimonial-block img.avatar {
+        margin: 4rem auto 2rem;
+    }
+}
+
+.section.testimonials .testimonial-block p.quote {
+    font-size: 20px;
+    font-family: "eurostile", sans-serif;
+    font-weight: 300;
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+}
+
+@media screen and (min-width: 769px) {
+    .section.testimonials .testimonial-block p.quote {
+        font-size: 25px;
+    }
+}
+
+.callout .title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 769px) {
+    .callout .title {
+        font-size: 26px;
+    }
+}
+
+.callout .button.is-primary.is-outlined.is-medium {
+    padding: 1.25em 2em;
+    font-weight: 400;
+    border-width: 2px;
+    margin-top: 2rem;
+}
+
+.section.call-to-action .title,
+.section.call-to-action p {
+    color: white;
+    margin-bottom: 0;
+}
+
+.section.call-to-action .box {
+    padding: 3.5rem 2rem;
+    margin-top: -9rem;
+    background-color: #141c3a;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #141c3a;
+}
+
+@media screen and (min-width: 769px) {
+    .section.call-to-action .box {
+        padding: 3.5rem 1.25rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .section.call-to-action .box p {
+        font-size: 18px;
+    }
+}
+
+input[name="carousel"] {
+    display: none;
+}
+
+.carousel-nav {
+    margin: 0.25rem 0 3rem;
+    text-align: center;
+    z-index: 1;
+}
+
+@media screen and (min-width: 769px) {
+    .carousel-nav {
+        margin: 1rem 0 3.5rem;
+    }
+}
+
+@media screen and (min-width: 1216px) {
+    .carousel-nav {
+        margin: 1rem 0 0.5rem;
+    }
+}
+
+.carousel-nav label {
+    display: inline-block;
+    margin: 0 6px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+}
+
+.carousel-slides {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-slides .carousel-inner {
+    width: 500%;
+    -webkit-transition: margin 0.5s;
+    transition: margin 0.5s;
+}
+
+.carousel-slides .carousel-item {
+    float: left;
+    width: 20%;
+}
+
+#carousel-1:checked~.carousel-nav label[for="carousel-1"] {
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+#carousel-2:checked~.carousel-nav label[for="carousel-2"] {
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+#carousel-3:checked~.carousel-nav label[for="carousel-3"] {
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+#carousel-4:checked~.carousel-nav label[for="carousel-4"] {
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+#carousel-5:checked~.carousel-nav label[for="carousel-5"] {
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+#carousel-6:checked~.carousel-nav label[for="carousel-6"] {
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+#carousel-7:checked~.carousel-nav label[for="carousel-7"] {
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+#carousel-8:checked~.carousel-nav label[for="carousel-8"] {
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+#carousel-1:checked~.carousel-slides .carousel-inner {
+    margin-left: 0%;
+}
+
+#carousel-2:checked~.carousel-slides .carousel-inner {
+    margin-left: -100%;
+}
+
+#carousel-3:checked~.carousel-slides .carousel-inner {
+    margin-left: -200%;
+}
+
+#carousel-4:checked~.carousel-slides .carousel-inner {
+    margin-left: -300%;
+}
+
+#carousel-5:checked~.carousel-slides .carousel-inner {
+    margin-left: -400%;
+}
+
+#carousel-6:checked~.carousel-slides .carousel-inner {
+    margin-left: -500%;
+}
+
+#carousel-7:checked~.carousel-slides .carousel-inner {
+    margin-left: -600%;
+}
+
+#carousel-8:checked~.carousel-slides .carousel-inner {
+    margin-left: -700%;
+}
+
+.column.is-12,
+.column.is-12-tablet {
+    flex: none;
+    width: 100%;
+    border: 3px solid #48c774;
+    background-color: #48c774;
+    padding: 4rem 5rem;
+}
+
+.section.testimonials .testimonial-block img.avatar {
+    margin: 2rem 0;
+    max-width: 150px;
+    height: auto;
+    border-radius: 100px;
+}
+
+.hero.is-dark .tabs.is-boxed li.is-active a,
+.hero.is-dark .tabs.is-boxed li.is-active a:hover,
+.hero.is-dark .tabs.is-toggle li.is-active a,
+.hero.is-dark .tabs.is-toggle li.is-active a:hover {
+    background-color: #48c774 !important;
+    border-color: none !important;
+}
+
+.hero.is-dark .tabs.is-boxed li.is-active a,
+.hero.is-dark .tabs.is-boxed li.is-active a:hover,
+.hero.is-dark .tabs.is-toggle li.is-active a,
+.hero.is-dark .tabs.is-toggle li.is-active a:hover {
+    background-color: #48c774 !important;
+    border-color: #48c774 !important;
+}
+
+li .is-active a span {
+    color: #fff;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.button.is-instagram {
+    color: #fff;
+    background-color: #b900b4;
+    border-color: transparent
+}
+
+.button.is-twitter {
+    color: #fff;
+    background-color: #2795e9;
+    border-color: transparent
+}
+
+.button.is-soundcloud {
+    color: #fff;
+    background-color: #f50;
+    border-color: transparent
+}
+
+.button.is-facebook {
+    color: #fff;
+    background-color: #0e70f0;
+    border-color: transparent
+}
+
+.button.is-linkedin {
+    color: #fff;
+    background-color: #005983;
+    border-color: transparent
+}
+
+.button.is-telegram {
+    color: #fff;
+    background-color: #08c;
+    border-color: transparent
+}
+
+.button.is-whatsapp {
+    color: #fff;
+    background-color: #25d366;
+    border-color: transparent
+}
+
+.button.is-snapchat {
+    color: #fff;
+    background-color: #f0f000;
+    border-color: transparent
+}
+
+.button.is-facebook-messenger {
+    color: #fff;
+    background-color: #0084ff;
+    border-color: transparent
+}
+
+.button.is-mail {
+    color: #fff;
+    background-color: #0100af;
+    border-color: transparent
+}
+
+.button.is-instagram:hover {
+    color: #fff;
+    background-color: #ed4657;
+    border-color: transparent
+}
+
+.button.is-twitter:hover {
+    color: #fff;
+    background-color: #119cf1;
+    border-color: transparent
+}
+
+.button.is-soundcloud:hover {
+    color: #fff;
+    background-color: #c40;
+    border-color: transparent
+}
+
+.button.is-facebook:hover {
+    color: #fff;
+    background-color: #2d4373;
+    border-color: transparent
+}
+
+.button.is-linkedin:hover {
+    color: #fff;
+    background-color: #0960b6;
+    border-color: transparent
+}
+
+.button.is-telegram:hover {
+    color: #fff;
+    background-color: #05c;
+    border-color: transparent
+}
+
+.button.is-whatsapp:hover {
+    color: #fff;
+    background-color: #25a000;
+    border-color: transparent
+}
+
+.button.is-snapchat:hover {
+    color: #fff;
+    background-color: #f9d000;
+    border-color: transparent
+}
+
+.button.is-facebook-messenger:hover {
+    color: #fff;
+    background-color: #0054ff;
+    border-color: transparent
+}
+
+.button.is-mail:hover {
+    color: #fff;
+    background-color: #003aaa;
+    border-color: transparent
+}
+
+.button {
+    animation-duration: 1s;
+    animation-name: slideUp;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1.5)
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(1rem)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
