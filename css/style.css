@@ -220,7 +220,7 @@ input[name="carousel"] {
     margin: 0 6px;
     width: 15px;
     height: 15px;
-    border: 2px solid #fff;
+    border: 2px solid #48c774;
     border-radius: 50%;
     cursor: pointer;
     -webkit-transition: background-color 0.25s;
@@ -244,43 +244,43 @@ input[name="carousel"] {
 }
 
 #carousel-1:checked~.carousel-nav label[for="carousel-1"] {
-    background-color: #fff;
-    border: 2px solid #fff;
+    background-color: #48c774;
+    border: 2px solid #48c774;
 }
 
 #carousel-2:checked~.carousel-nav label[for="carousel-2"] {
-    background-color: #fff;
-    border: 2px solid #fff;
+    background-color: #48c774;
+    border: 2px solid #48c774;
 }
 
 #carousel-3:checked~.carousel-nav label[for="carousel-3"] {
-    background-color: #fff;
-    border: 2px solid #fff;
+    background-color: #48c774;
+    border: 2px solid #48c774;
 }
 
 #carousel-4:checked~.carousel-nav label[for="carousel-4"] {
-    background-color: #fff;
-    border: 2px solid #fff;
+    background-color: #48c774;
+    border: 2px solid #48c774;
 }
 
 #carousel-5:checked~.carousel-nav label[for="carousel-5"] {
-    background-color: #fff;
-    border: 2px solid #fff;
+    background-color: #48c774;
+    border: 2px solid #48c774;
 }
 
 #carousel-6:checked~.carousel-nav label[for="carousel-6"] {
-    background-color: #fff;
-    border: 2px solid #fff;
+    background-color: #48c774;
+    border: 2px solid #48c774;
 }
 
 #carousel-7:checked~.carousel-nav label[for="carousel-7"] {
-    background-color: #fff;
-    border: 2px solid #fff;
+    background-color: #48c774;
+    border: 2px solid #48c774;
 }
 
 #carousel-8:checked~.carousel-nav label[for="carousel-8"] {
-    background-color: #fff;
-    border: 2px solid #fff;
+    background-color: #48c774;
+    border: 2px solid #48c774;
 }
 
 #carousel-1:checked~.carousel-slides .carousel-inner {
@@ -322,7 +322,7 @@ input[name="carousel"] {
     flex: none;
     width: 100%;
     border: 3px solid #48c774;
-    background-color: #48c774;
+    /* background-color: #48c774; */
     padding: 4rem 5rem;
 }
 
@@ -331,6 +331,10 @@ input[name="carousel"] {
     max-width: 150px;
     height: auto;
     border-radius: 100px;
+}
+
+p.title.is-size-3.pb-5.quote {
+    color:#48c774;
 }
 
 /****************************************************************************/
