@@ -4,83 +4,407 @@
       "value": 20,
       "density": {
         "enable": true,
-        "value_area": 900
+        "value_area": 1000
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#fff"
     },
     "shape": {
       "type": ["images"],
       "images": [
         {
           "src": "img/particle-1.png",
-          "width": 150,
-          "height": 30,
+          "width": 100,
+          "height": 100,
           "particles": {
             "move": {
               "direction": "top",
-              "speed": 1.5,
+              "speed": 1,
               "straight": true
             }
           }
         },
         {
           "src": "img/particle-2.png",
-          "width": 150,
-          "height": 30,
+          "width": 100,
+          "height": 100,
           "particles": {
             "move": {
               "direction": "bottom",
-              "speed": 1.5,
+              "speed": 1,
               "straight": true
             }
           }
         },
         {
           "src": "img/particle-3.png",
-          "width": 150,
-          "height": 30,
+          "width": 100,
+          "height": 100,
           "particles": {
             "move": {
-              "direction": "bottom",
-              "speed": 1.5,
+              "direction": "right",
+              "speed": 1,
               "straight": true
             }
           }
         },
         {
           "src": "img/particle-4.png",
-          "width": 150,
-          "height": 30,
+          "width": 100,
+          "height": 100,
           "particles": {
             "move": {
-              "direction": "bottom",
-              "speed": 1.5,
+              "direction": "left",
+              "speed": 1,
               "straight": true
             }
           }
         },
         {
           "src": "img/particle-5.png",
-          "width": 150,
-          "height": 30,
+          "width": 100,
+          "height": 100,
           "particles": {
             "move": {
-              "direction": "bottom",
-              "speed": 1.5,
+              "direction": "top",
+              "speed": 1,
               "straight": true
             }
           }
         },
         {
           "src": "img/particle-6.png",
-          "width": 150,
-          "height": 30,
+          "width": 100,
+          "height": 100,
           "particles": {
             "move": {
               "direction": "bottom",
-              "speed": 1.5,
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-7.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "right",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-8.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "left",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-9.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "top",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-10.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "bottom",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-11.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "right",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-12.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "left",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-13.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "top",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-14.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "bottom",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-15.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "right",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-16.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "left",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-17.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "top",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-18.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "bottom",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-19.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "left",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-20.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "top",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-21.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "bottom",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-22.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "right",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-23.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "left",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-24.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "top",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-25.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "bottom",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-26.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "right",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-27.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "left",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-28.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "top",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-29.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "bottom",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-30.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "right",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-31.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "left",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-32.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "top",
+              "speed": 1,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-33.png",
+          "width": 100,
+          "height": 100,
+          "particles": {
+            "move": {
+              "direction": "bottom",
+              "speed": 1,
               "straight": true
             }
           }
@@ -88,17 +412,22 @@
       ]
     },
     "opacity": {
-      "value": 1,
+      "value": 0.05,
       "random": false
     },
     "size": {
-      "value": 30,
+      "value": 40,
       "random": false
     },
     "move": {
       "enable": true,
       "out_mode": "out",
-      "bounce": false
+      "bounce": true,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
     }
   }
 }
