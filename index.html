@@ -80,22 +80,16 @@
                 <div class="container">
                     <div class="tabs is-boxed is-centered is-medium pb-5">
                         <ul>
-                            <li data-target="educationhistory" class="is-active">
-                                <a>
-                                <span class="icon is-small"><i class="fas fa-graduation-cap" aria-hidden="true"></i></span>
-                                <span>EDUCATION</span>
-                                </a>
-                            </li>
-                            <li data-target="workhistory">
+                            <li data-target="workhistory" class="is-active">
                                 <a>
                                 <span class="icon is-small"><i class="fas fa-briefcase" aria-hidden="true"></i></span>
                                 <span>EMPLOYMENT</span>
                                 </a>
                             </li>
-                            <li data-target="testimonials">
+                            <li data-target="educationhistory">
                                 <a>
-                                <span class="icon is-small"><i class="fas fa-quote-right" aria-hidden="true"></i></span>
-                                <span>TESTIMONIALS</span>
+                                <span class="icon is-small"><i class="fas fa-graduation-cap" aria-hidden="true"></i></span>
+                                <span>EDUCATION</span>
                                 </a>
                             </li>
                             <li data-target="softandhardskills">
@@ -116,10 +110,16 @@
                                 <span>LANGUAGES</span>
                                 </a>
                             </li>
+                            <li data-target="testimonials">
+                                <a>
+                                <span class="icon is-small"><i class="fas fa-quote-right" aria-hidden="true"></i></span>
+                                <span>TESTIMONIALS</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div id="tab-content">
-                        <div id="educationhistory">
+                        <div id="educationhistory" class="is-hidden">
                             <div class="tile is-ancestor">
                                 <div class="tile is-vertical is-12">
                                     <div class="tile">
@@ -145,159 +145,176 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="workhistory" class="is-hidden">
-                                                        <br>
-                            <p class="title is-size-4">ACTIVE PROJECTS</p>
-                            <br>
+                        <div id="workhistory">
+                            <p class="title is-size-4 pb-3 pt-5">VIEW MY FREELANCER PROFILE ON</p>
+                            <div class="tile is-ancestor">
+                                <div class="tile is-vertical is-12">
+                                    <div class="tile">
+                                        <div class="tile is-parent is-vertical is-4">
+                                            <a href="https://www.celestialshaman.live" class="item">
+                                            <article class="tile is-child notification is-success">
+                                                <p class="title is-size-3">FIVERR</p>
+                                            </article></a>
+                                            </div>
+                                            <div class="tile is-parent is-vertical is-4">
+                                            <a href="https://www.campusdeiaguaviva.com" class="item">
+                                            <article class="tile is-child notification is-success">
+                                                <p class="title is-size-3">UPWORK</p>
+                                            </article></a>
+                                            </div>
+                                            <div class="tile is-parent is-vertical is-4">
+                                            <a href="https://www.nonfuckabletitties.com" class="item">
+                                            <article class="tile is-child notification is-success">
+                                                <p class="title is-size-3">FREELANCER.COM</p>
+                                            </article></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <p class="title is-size-4 pb-3 pt-5">I CURRENTLY WORK REMOTELY FOR</p>
                             <div class="tile is-ancestor">
                                 <div class="tile is-vertical is-12">
                                     <div class="tile">
                                         <div class="tile is-parent is-vertical is-6">
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">VIPMedellinConcierge | Director</p>
-                                                <p class="subtitle is-size-6">MAY 2021 - PRESENT | Medellín, Antioquia, Colombia</p>
-                                                <p class="subtitle is-size-6"><a href="https://www.vipmedellinconcierge.com">CHECK IT OUT</a></p>
-                                            </article>
-                                            <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">CampusDeiAguaViva | Consultant</p>
-                                                <p class="subtitle is-size-6">MAY 2021 - PRESENT | Marinilla, Antioquia, Colombia</p>
-                                                <p class="subtitle is-size-6"><a href="https://www.campusdeiaguaviva.com">CHECK IT OUT</a></p>
-                                            </article>
-                                            <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">PrepagoLineup | Director</p>
-                                                <p class="subtitle is-size-6">MAY 2021 - PRESENT | Medellín, Antioquia, Colombia</p>
-                                                <p class="subtitle is-size-6"><a href="https://www.prepagolineup.com">CHECK IT OUT</a></p>
-                                            </article>
-                                            <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">ModeloDeWebcam | Director</p>
-                                                <p class="subtitle is-size-6">MAR 2021 - PRESENT | Medellín, Antioquia, Colombia</p>
-                                                <p class="subtitle is-size-6"><a href="https://www.modelodewebcam.com">CHECK IT OUT</a></p>
-                                            </article>
-                                            <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">NonFuckableTitties | Director</p>
-                                                <p class="subtitle is-size-6">FEB 2021 - PRESENT | Medellín, Antioquia, Colombia</p>
-                                                <p class="subtitle is-size-6"><a href="https://www.nonfuckabletitties.com">CHECK IT OUT</a></p>
+                                                <p class="title is-size-3 pb-3">Technical Supply & Engineering</p>
+                                                <p class="subtitle is-size-4">Tech Lead & Director</p>
+                                                <p class="subtitle is-size-6">JAN 2021 - PRESENT | Medellín, Antioquia, Colombia</p>
+                                                <p class="subtitle is-size-5"><a href="https://www.vipmedellinconcierge.com" style="text-decoration: none; font-weight: bold">VIP MEDELLÍN CONCIERGE</a></p>
+                                                <p class="subtitle is-size-5"><a href="https://www.modelodewebcam.com" style="text-decoration: none; font-weight: bold">MODELO DE WEBCAM</a></p>
+                                                <p class="subtitle is-size-5"><a href="https://www.prepagolineup.com" style="text-decoration: none; font-weight: bold">PREPAGO LINEUP</a></p>
+                                                <p class="subtitle is-size-5"><a href="https://www.prepagohunters.com" style="text-decoration: none; font-weight: bold">PREPAGO HUNTERS</a></p>
+                                                <p class="subtitle is-size-5"><a href="https://www.nonfuckabletitties.com" style="text-decoration: none; font-weight: bold">NFTITTIES</a></p>
+                                                <p><a href="https://tsande.jasonguro.com" class="button is-info" style="text-decoration: none; font-weight: bold" class>LEARN MORE</a></p>
                                             </article>
                                             </div>
                                             <div class="tile is-parent is-vertical is-6">
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">PrepagoHunters | Creative Director</p>
-                                                <p class="subtitle is-size-6">JAN 2021 - PRESENT | Medellín, Antioquia, Colombia</p>
-                                                <p class="subtitle is-size-6"><a href="https://www.prepagohunters.com">CHECK IT OUT</a></p>
+                                                <p class="title is-size-3 pb-3">Karmafixer LLC.</p>
+                                                <p class="subtitle is-size-5">Junior Web Developer & UI/UX Designer</p>
+                                                <p class="subtitle is-size-6">MAR 2020 - PRESENT | Medellín, Antioquia, Colombia</p>
+                                                <p class="subtitle is-size-5"><a href="https://www.alexroman.boats" style="text-decoration: none; font-weight: bold">ALEX ROMAN BOATS</a></p>
+                                                <p class="subtitle is-size-5"><a href="https://boxingplace.jasonguro.com" style="text-decoration: none; font-weight: bold">BOXING PLACE</a></p>
+                                                <p class="subtitle is-size-5"><a href="https://whitesquid.jasonguro.com" style="text-decoration: none; font-weight: bold">WHITESQUID</a></p>
+                                                <p class="subtitle is-size-5"><a href="https://smartforest.jasonguro.com" style="text-decoration: none; font-weight: bold">SMARTFOREST</a></p>
+                                                <p class="subtitle is-size-5"><a href="https://www.partscout.com" style="text-decoration: none; font-weight: bold">PARTSCOUT</a></p>
+                                                <p><a href="https://www.karmafixer.com" class="button is-info" style="text-decoration: none; font-weight: bold" class>LEARN MORE</a></p>
+
                                             </article>
-                                            <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">Celestial Shaman Music | DJ </p>
-                                                <p class="subtitle is-size-6">JAN 2021 - PRESENT| Miami Beach, FL, US</p>
-                                                <p class="subtitle is-size-6"><a href="https://www.celestialshaman.live">CHECK IT OUT</a></p>
-                                            </article>
-                                            <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">TheUnemployedTycoon | Creative Director</p>
-                                                <p class="subtitle is-size-6">MAR 2020 - PRESENT | Miami Beach, FL, USA</p>
-                                                <p class="subtitle is-size-6"><a href="https://www.theunemployedtycoon.com">CHECK IT OUT</a></p>
-                                            </article>
-                                            <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">Karmafixer | Junior Web Developer & UI/UX Designer</p>
-                                                <p class="subtitle is-size-6">MAR 2020 - PRESENT | Miami Beach, FL, USA</p>
-                                                <p class="subtitle is-size-6"><a href="https://www.alexroman.boats">CHECK OUT ALEX ROMAN BOATS</a></p>
-                                                <p class="subtitle is-size-6"><a href="https://www.tethys.com">CHECK OUT TETHYS USA</a></p>
-                                                <p class="subtitle is-size-6"><a href="https://boxingplace.jasonguro.com">CHECK OUT BOXING PLACE</a></p>
-                                                <p class="subtitle is-size-6"><a href="https://whitesquid.jasonguro.com">CHECK OUT WHITESQUID</a></p>
-                                                <p class="subtitle is-size-6"><a href="https://smartforest.jasonguro.com">CHECK OUT SMARTFOREST</a></p>
-                                                <p class="subtitle is-size-6"><a href="https://karmafixer.jasonguro.com">CHECK OUT KARMAFIXER</a></p>
-                                            </article>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <br>
-                            <p class="title is-size-4">PAST UI/UX DESIGN / WEB DEVELOPMENT / IT PROJECTS</p>
-                            <br>
+                            <p class="title is-size-4 pb-3 pt-5">MY OTHER MISC PROJECTS</p>
+                            <div class="tile is-ancestor">
+                                <div class="tile is-vertical is-12">
+                                    <div class="tile">
+                                        <div class="tile is-parent is-vertical is-6">
+                                            <a href="https://www.celestialshaman.live" class="item">
+                                            <article class="tile is-child notification is-success">
+                                                <p class="title is-size-3 pb-3">Celestial Shaman</p>
+                                                <p class="subtitle is-size-6">DJ | Miami Beach, FL, USA</p>
+                                            </article></a>
+                                            </div>
+                                            <div class="tile is-parent is-vertical is-6">
+                                            <a href="https://www.campusdeiaguaviva.com" class="item">
+                                            <article class="tile is-child notification is-success">
+                                                <p class="title is-size-3 pb-3">Campus Dei Agua Viva</p>
+                                                <p class="subtitle is-size-6">Consultant | Marinilla, Antioquia, Colombia</p>
+                                            </article></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <p class="title is-size-4 pb-3 pt-5">PAST UI/UX DESIGN / WEB DEVELOPMENT / IT PROJECTS</p>
                             <div class="tile is-ancestor">
                                 <div class="tile is-vertical is-12">
                                     <div class="tile">
                                         <div class="tile is-parent is-vertical is-4">
+                                            <a href="https://www.preferental.com" class="item">
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">Preferental | UI/UX Designer</p>
+                                                <p class="title is-size-3 pb-3">Preferental</p>
+                                                <p class="subtitle is-size-5">UI/UX Designer</p>
                                                 <p class="subtitle is-size-6">MAY - JUN 2018 | Johannesburg, South Africa</p>
-                                                <p class="subtitle is-size-6"><a href="https://www.preferental.com">CHECK IT OUT</a></p>
-                                            </article>
+                                            </article></a>
+                                            <a href="https://taptapcards.jasonguro.com" class="item">
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3"> TapTapCards | UI/UX Designer</p>
+                                                <p class="title is-size-3 pb-3">TapTap Cards</p>
+                                                <p class="subtitle is-size-5">UI/UX Designer</p>
                                                 <p class="subtitle is-size-6">DEC 2020 - JAN 2021 | Miami Beach, FL, USA</p>
-                                                <p class="subtitle is-size-6"><a href="https://taptapcards.jasonguro.com">CHECK IT OUT</a></p>
-                                            </article>
+                                            </article></a>
+                                            <a href="https://www.midastrading.com" class="item">
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">MidasTrading | Web Developer</p>
-                                                <p class="subtitle is-size-6">OCT 2020 - DEC 2020 | Miami Beach, FL, USA</p>
-                                                <p class="subtitle is-size-6"><a href="https://www.midastrading.com">CHECK IT OUT</a></p>
-                                            </article>
+                                                <p class="title is-size-3 pb-3">Midas Trading</p>
+                                                <p class="subtitle is-size-5">Web Developer</p>
+                                                <p class="subtitle is-size-6">OCT - DEC 2020 | Miami Beach, FL, USA</p>
+                                            </article></a>
                                             </div>
                                             <div class="tile is-parent is-vertical is-4">
+                                                <a href="https://www.loudwaycannabis.com" class="item">
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">LoudWay Cannabis | Founder</p>
-                                                <p class="subtitle is-size-6">AUG 2020 - OCT 2020 | Santa Monica, CA, USA</p>
-                                                <p class="subtitle is-size-6"><a href="https://www.loudwaycannabis.com">CHECK IT OUT</a></p>
-                                            </article>
+                                                <p class="title is-size-3 pb-3">LoudWay Cannabis</p>
+                                                <p class="subtitle is-size-5">Tech Lead & Director</p>
+                                                <p class="subtitle is-size-6">AUG - OCT 2020 | Santa Monica, CA, USA</p>
+                                            </article></a>
+                                            <a href="https://cleanermenu.jasonguro.com" class="item">
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">CleanerMenu | Co-Founder</p>
-                                                <p class="subtitle is-size-6">AUG 2020 - SEP 2020 | Miami Beach, FL, USA</p>
-                                                <p class="subtitle is-size-6"><a href="https://cleanermenu.jasonguro.com">CHECK IT OUT</a></p>
-                                            </article>
+                                                <p class="title is-size-3 pb-3">Cleaner Menu</p>
+                                                <p class="subtitle is-size-5">Web Developer</p>
+                                                <p class="subtitle is-size-6">AUG - SEP 2020 | Miami Beach, FL, USA</p>
+                                            </article></a>
+                                            <a href="https://deboussolenyc.jasonguro.com" class="item">
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">DeboussoleNYC | Web Developer</p>
+                                                <p class="title is-size-3 pb-3">Deboussole NYC</p>
+                                                <p class="subtitle is-size-5">Web Developer</p>
                                                 <p class="subtitle is-size-6">JUL 2020 | New York, NY, USA</p>
-                                                <p class="subtitle is-size-6"><a href="https://deboussolenyc.jasonguro.com">CHECK IT OUT</a></p>
-                                            </article>
+                                            </article></a>
                                             </div>
                                             <div class="tile is-parent is-vertical is-4">
+                                                <a href="https://rizzle.jasonguro.com" class="item">
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">Rizzle App | Co-Founder</p>
-                                                <p class="subtitle is-size-6">MAR 2018 - JUN 2018 | Manalapan, NJ, USA</p>
-                                                <p class="subtitle is-size-6"><a href="https://rizzle.jasonguro.com">CHECK IT OUT</a></p>
-                                            </article>
+                                                <p class="title is-size-3 pb-3">Rizzle App</p>
+                                                <p class="subtitle is-size-5">Tech Lead & UI/UX Designer</p>
+                                                <p class="subtitle is-size-6">JAN - JUN 2018 | Manalapan, NJ, USA</p>
+                                            </article></a>
+                                            <a href="https://www.loudway.app" class="item">
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">LoudWay App | Co-Founder</p>
-                                                <p class="subtitle is-size-6">MAR 2017 - MAR 2019 | Manalapan, NJ, US</p>
-                                                <p class="subtitle is-size-6"><a href="https://www.loudway.app">CHECK IT OUT</a></p>
-                                            </article>
+                                                <p class="title is-size-3 pb-3">LoudWay Inc.</p>
+                                                <p class="subtitle is-size-5">Tech Lead & UI/UX Designer</p>
+                                                <p class="subtitle is-size-6">MAR 2016 - MAR 2019 | Manalapan, NJ, US</p>
+                                            </article></a>
+                                            <a href="https://www.isprime.com" class="item">
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">ISPrime | Junior Systems Administrator</p>
+                                                <p class="title is-size-3 pb-3">ISPrime LLC.</p>
+                                                <p class="subtitle is-size-5">Junior Systems Administrator</p>
                                                 <p class="subtitle is-size-6">JAN 2015 - MAR 2016 | Weehawken, NJ, USA</p>
-                                                <p class="subtitle is-size-6"><a href="https://www.isprime.com">CHECK IT OUT</a></p>
-                                            </article>
+                                            </article></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <br>
-                            <p class="title is-size-4">PAST BARTENDING EXPERIENCE</p>
-                            <br>
+                            <p class="title is-size-4 pb-3 pt-5">PAST BARTENDING EXPERIENCE</p>
                             <div class="tile is-ancestor">
                                 <div class="tile is-vertical is-12">
                                     <div class="tile">
-                                        <div class="tile is-parent is-vertical is-4">
+                                        <div class="tile is-parent is-vertical is-6">
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">Orilla Bar & Restaurant | Bartender</p>
+                                                <p class="title is-size-3 pb-3">Orilla Bar & Restaurant</p>
+                                                <p class="subtitle is-size-5">Bartender</p>
                                                 <p class="subtitle is-size-6">NOV 2019 - MAR 2020 | Miami Beach, FL, USA</p>
-                                                <p class="subtitle is-size-6"><a href="https://wwwprepagolineup.com">VIEW VIDEO</a></p>
                                             </article>
                                             </div>
-                                            <div class="tile is-parent is-vertical is-4">
+                                            <div class="tile is-parent is-vertical is-6">
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">Soho Pub | Head Bartender</p>
+                                                <p class="title is-size-3 pb-3">Soho Pub / Kings Nightclub</p>
+                                                <p class="subtitle is-size-5">Head Bartender</p>
                                                 <p class="subtitle is-size-6">MAR 2018 - FEB 2019 | Jersualem, Israel</p>
                                             </article>
                                             </div>
-                                            <div class="tile is-parent is-vertical is-4">
-                                            <article class="tile is-child notification is-success">
-                                                <p class="title is-size-3 pb-3">Kings Nightclub | Beverage Manager</p>
-                                                <p class="subtitle is-size-6">JUN 2018 - FEB 2019 | Jersualem, Israel</p>
-                                            </article>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         <div id="testimonials" class="is-hidden">
                             <section class="section testimonials has-text-centered has-border-top">
                                 <div class="container is-narrow">
@@ -884,18 +901,19 @@
                             </div>
                         </div>
                         <div id="languages" class="is-hidden">
+                        <p class="title is-size-4 pb-3 pt-5">HUMAN LANGUAGES</p>
                             <div class="tile is-ancestor">
                                 <div class="tile is-vertical is-12">
                                     <div class="tile">
-                                        <div class="tile is-parent is-vertical">
+                                        <div class="tile is-parent is-vertical is-6">
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-4">ENGLISH - FLUENT (NATIVE SPEAKER)</p>
+                                                <p class="title is-size-4">ENGLISH - FLUENT</p>
                                             </article>
                                             <article class="tile is-child notification is-success">
-                                                <p class="title is-size-4">RUSSIAN - FLUENT (NATIVE SPEAKER)</p>
+                                                <p class="title is-size-4">RUSSIAN - FLUENT</p>
                                             </article>
                                         </div>
-                                        <div class="tile is-parent is-vertical">
+                                        <div class="tile is-parent is-vertical is-6">
                                             <article class="tile is-child notification is-success">
                                                 <p class="title is-size-4">SPANISH - ADVANCED</p>
                                             </article>
@@ -906,12 +924,61 @@
                                     </div>
                                 </div>
                             </div>
+                              <p class="title is-size-4 pb-3 pt-5">PROGRAMMING LANGUAGES</p>
+                            <div class="tile is-ancestor">
+                                <div class="tile is-vertical is-12">
+                                    <div class="tile">
+                                        <div class="tile is-parent is-vertical is-4">
+                                            <article class="tile is-child notification is-success">
+                                                <p class="title is-size-4">HTML5</p>
+                                            </article>
+                                            <article class="tile is-child notification is-success">
+                                                <p class="title is-size-4">EMMET</p>
+                                            </article>
+                                            <!-- <article class="tile is-child notification is-success">
+                                                <p class="title is-size-4">SOLIDITY</p>
+                                            </article> -->
+                                            <!-- <article class="tile is-child notification is-success">
+                                                <p class="title is-size-4">GOLANG</p>
+                                            </article> -->
+                                            </div>
+                                            <div class="tile is-parent is-vertical is-4">
+                                            <article class="tile is-child notification is-success">
+                                                <p class="title is-size-4">CSS3</p>
+                                            </article>
+                                            <article class="tile is-child notification is-success">
+                                                <p class="title is-size-4">SASS/SCSS</p>
+                                            </article>
+                                            <!-- <article class="tile is-child notification is-success">
+                                                <p class="title is-size-4">LESS</p>
+                                            </article> -->
+                                             <!-- <article class="tile is-child notification is-success">
+                                                <p class="title is-size-4">SWIFT</p>
+                                            </article> -->
+                                            </div>
+                                            <div class="tile is-parent is-vertical is-4">
+                                            <article class="tile is-child notification is-success">
+                                                <p class="title is-size-4">JAVASCRIPT</p>
+                                            </article>
+                                            <article class="tile is-child notification is-success">
+                                                <p class="title is-size-4">JSON/BSON</p>
+                                            </article>    
+                                            <!-- <article class="tile is-child notification is-success">
+                                                <p class="title is-size-4">KOTLIN</p>
+                                            </article> -->
+                                            <!-- <article class="tile is-child notification is-success">
+                                                <p class="title is-size-4">MARKDOWN</p>
+                                            </article> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
             </nav>
             </div>
         </section>
-        <section class="section is-small is-dark" style="background-color:#363636">
+        <section class="section is-medium is-dark" style="background-color:#363636">
             <div class="has-text-centered">
                 <button class="button is-medium is-facebook mr-1" style="width: 50px;" target=”_blank” onclick="window.location.href='https://www.facebook.com/jguro21';">
                 <i class="fab fa-facebook-f fa-lg"></i>

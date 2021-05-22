@@ -400,3 +400,9 @@ canvas.tsparticles-canvas-el {
   max-height: 100%;
   z-index: 0;
 }
+
+
+
+.tabs.is-boxed a.item{
+    border-bottom: 1px solid #363636 !important;
+}
