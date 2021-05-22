@@ -1,0 +1,104 @@
+{
+  "particles": {
+    "number": {
+      "value": 20,
+      "density": {
+        "enable": true,
+        "value_area": 900
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": ["images"],
+      "images": [
+        {
+          "src": "img/particle-1.png",
+          "width": 150,
+          "height": 30,
+          "particles": {
+            "move": {
+              "direction": "top",
+              "speed": 1.5,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-2.png",
+          "width": 150,
+          "height": 30,
+          "particles": {
+            "move": {
+              "direction": "bottom",
+              "speed": 1.5,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-3.png",
+          "width": 150,
+          "height": 30,
+          "particles": {
+            "move": {
+              "direction": "bottom",
+              "speed": 1.5,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-4.png",
+          "width": 150,
+          "height": 30,
+          "particles": {
+            "move": {
+              "direction": "bottom",
+              "speed": 1.5,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-5.png",
+          "width": 150,
+          "height": 30,
+          "particles": {
+            "move": {
+              "direction": "bottom",
+              "speed": 1.5,
+              "straight": true
+            }
+          }
+        },
+        {
+          "src": "img/particle-6.png",
+          "width": 150,
+          "height": 30,
+          "particles": {
+            "move": {
+              "direction": "bottom",
+              "speed": 1.5,
+              "straight": true
+            }
+          }
+        }
+      ]
+    },
+    "opacity": {
+      "value": 1,
+      "random": false
+    },
+    "size": {
+      "value": 30,
+      "random": false
+    },
+    "move": {
+      "enable": true,
+      "out_mode": "out",
+      "bounce": false
+    }
+  }
+}
