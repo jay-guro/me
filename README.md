@@ -1,2 +1,2 @@
 # resume.jasonguro.com
-JasonGuro | Resume
+Jason Guro | Resume
