@@ -329,7 +329,7 @@ input[name="carousel"] {
 @media (max-width: 430px) {
     .column.is-12,
     .column.is-12-tablet {
-        padding: 0rem 0rem !important;
+        padding: 0.5rem 0.5rem !important;
     }
 }
 
