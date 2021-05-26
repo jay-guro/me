@@ -411,3 +411,10 @@ canvas.tsparticles-canvas-el {
 .tabs.is-boxed a.item{
     border-bottom: 1px solid #363636 !important;
 }
+
+@media (max-width: 768px) {
+    .testimonial,
+    .testimonial-author {
+        font-size: 16px;
+    }
+}
