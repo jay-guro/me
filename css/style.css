@@ -426,3 +426,9 @@ canvas.tsparticles-canvas-el {
         font-size: 16px;
     }
 }
+
+.notification {
+    border-radius: 8px !important;
+    position: relative;
+    padding: 2rem 1.5rem !important;
+}
