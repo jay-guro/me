@@ -21,10 +21,18 @@
    <link rel="stylesheet" href="css/style.css" />
    <link rel="stylesheet" href="css/bulma.min.css">
    <link rel="stylesheet" href="css/all.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"></script>
    <script type="text/javascript" src="js/all.min.js"></script>
 </head>
 
 <body>
+   <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+   </div>
    <nav class="navbar is-dark is-large">
       <div class="navbar-brand">
          <a class="navbar-item" target="_blank" href="https://www.jasonguro.com">
@@ -1144,6 +1152,13 @@
             console.log("callback - particles.js config loaded");
          });
       };
+   </script>
+   <script type="text/javascript">
+      $(document).ready(function () {
+         setTimeout(function () {
+            $('body').addClass('loaded');
+         }, 1500);
+      });
    </script>
 </body>
 
