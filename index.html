@@ -107,7 +107,7 @@
         <div class="container is-fluid">
           <div class="tabs is-boxed is-centered is-medium pb-5">
             <ul>
-              <li data-target="workhistory" class="is-active">
+              <li data-target="workhistory" >
                 <a>
                   <span class="icon is-small"><i class="fas fa-briefcase" aria-hidden="true"></i></span>
                   <span>EMPLOYMENT</span>
@@ -119,7 +119,7 @@
                   <span>EDUCATION</span>
                 </a>
               </li>
-              <li data-target="softandhardskills">
+              <li data-target="softandhardskills" class="is-active">
                 <a>
                   <span class="icon is-small"><i class="fas fa-brain" aria-hidden="true"></i></span>
                   <span>SKILLS</span>
@@ -184,7 +184,7 @@
               </div>
             </div>
             <!-- Employment -->
-            <div id="workhistory">
+            <div id="workhistory" class="is-hidden">
               <br />
               <p class="title is-size-3-desktop is-size-5-mobile pb-5 pt-5">
                 VIEW MY FREELANCER PROFILES
@@ -797,7 +797,7 @@
               </section>
             </div>
             <!-- Skills -->
-            <div id="softandhardskills" class="is-hidden">
+            <div id="softandhardskills">
               <br />
               <p class="title is-size-3-desktop is-size-5-mobile mb-5 mt-5">
                 SOFT SKILLS
@@ -875,6 +875,11 @@
                   <div class="tile">
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/macosx.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           MAC OSX
                         </p>
@@ -882,9 +887,16 @@
                           EXPERT | 8 YEARS
                         </p>
                       </article>
+                    </div>
+                    <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/ubuntu.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
-                          UBUNTU SERVER
+                          UBUNTU
                         </p>
                         <p class="subtitle is-size-5-desktop is-size-6-mobile">
                           ADVANCED | 4 YEARS
@@ -893,19 +905,16 @@
                     </div>
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/windows.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           WINDOWS
                         </p>
                         <p class="subtitle is-size-5-desktop is-size-6-mobile">
                           EXPERT | 5 YEARS
-                        </p>
-                      </article>
-                      <article class="tile is-child notification is-success">
-                        <p class="title is-size-4-desktop is-size-5-mobile">
-                          UBUNTU DESKTOP
-                        </p>
-                        <p class="subtitle is-size-5-desktop is-size-6-mobile">
-                          EXPERT | 4 YEARS
                         </p>
                       </article>
                     </div>
@@ -924,6 +933,11 @@
                   <div class="tile">
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/flexbox.svg" style="width: 100px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           FLEXBOX
                         </p>
@@ -932,6 +946,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/bulma.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           BULMA
                         </p>
@@ -940,6 +959,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/fontawesome.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           FONTAWESOME
                         </p>
@@ -950,6 +974,24 @@
                     </div>
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/particles.svg" style="width: 100px;" />
+                          </figure>
+                        </div>
+                        <p class="title is-size-4-desktop is-size-5-mobile">
+                          TS/PARTICLES JS
+                        </p>
+                        <p class="subtitle is-size-5-desktop is-size-6-mobile">
+                          EXPERT | 2 YEARS
+                        </p>
+                      </article>
+                      <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/cssgrid.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           CSS GRID
                         </p>
@@ -958,6 +1000,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/bootstrap.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           BOOTSTRAP
                         </p>
@@ -965,14 +1012,7 @@
                           ADVANCED | 2 YEARS
                         </p>
                       </article>
-                      <article class="tile is-child notification is-success">
-                        <p class="title is-size-4-desktop is-size-5-mobile">
-                          TS/PARTICLES JS
-                        </p>
-                        <p class="subtitle is-size-5-desktop is-size-6-mobile">
-                          EXPERT | 2 YEARS
-                        </p>
-                      </article>
+                      
                     </div>
                   </div>
                   <hr>
@@ -989,6 +1029,11 @@
                   <div class="tile">
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/mongodb.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           MONGODB ATLAS
                         </p>
@@ -997,6 +1042,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/nodejs.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           Node.JS
                         </p>
@@ -1005,6 +1055,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/expressjs.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           Express.JS
                         </p>
@@ -1012,17 +1067,28 @@
                           LEARNING NOW | 1 YEAR
                         </p>
                       </article>
+                      
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/stripe.svg" style="width: 100px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
-                          ITERM | TERMINAL (CLI)
+                          STRIPE API
                         </p>
                         <p class="subtitle is-size-5-desktop is-size-6-mobile">
-                          INTERMEDIATE | 4 YEARS
+                          BEGINNER | 1 YEAR
                         </p>
                       </article>
                     </div>
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/mapbox.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           MAPBOX API / STUDIO
                         </p>
@@ -1031,14 +1097,24 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/iterm.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
-                          STRIPE API
+                          ITERM | TERMINAL (CLI)
                         </p>
                         <p class="subtitle is-size-5-desktop is-size-6-mobile">
-                          BEGINNER | 1 YEAR
+                          INTERMEDIATE | 4 YEARS
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/postman.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           POSTMAN
                         </p>
@@ -1047,6 +1123,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/nginx.svg" style="width: 100px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           NGINX
                         </p>
@@ -1070,6 +1151,11 @@
                   <div class="tile">
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/xd.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           ADOBE XD
                         </p>
@@ -1078,6 +1164,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/sketch.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           SKETCH APP
                         </p>
@@ -1086,6 +1177,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/zeplin.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           ZEPLIN
                         </p>
@@ -1094,6 +1190,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/drawio.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           DRAW.IO
                         </p>
@@ -1104,6 +1205,11 @@
                     </div>
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/figma.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           FIGMA
                         </p>
@@ -1112,6 +1218,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/invision.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           INVISION
                         </p>
@@ -1120,6 +1231,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/canva.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           CANVA
                         </p>
@@ -1128,6 +1244,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/protoio.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           PROTO.IO
                         </p>
@@ -1151,6 +1272,11 @@
                   <div class="tile">
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/slack.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           SLACK
                         </p>
@@ -1159,6 +1285,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/googleanalytics.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           GOOGLE ANALYTICS
                         </p>
@@ -1167,6 +1298,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/zendesk.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           ZENDESK
                         </p>
@@ -1177,6 +1313,11 @@
                     </div>
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/notion.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           NOTION
                         </p>
@@ -1185,6 +1326,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/gsuite.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           GOOGLE BUSINESS SUITE
                         </p>
@@ -1193,6 +1339,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/trello.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           TRELLO
                         </p>
@@ -1216,6 +1367,11 @@
                   <div class="tile">
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/s3.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           S3
                         </p>
@@ -1224,6 +1380,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/route53.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           ROUTE 53
                         </p>
@@ -1234,6 +1395,11 @@
                     </div>
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/amplify.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           AMPLIFY
                         </p>
@@ -1242,6 +1408,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/cloudfront.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           CLOUDFRONT
                         </p>
@@ -1265,6 +1436,11 @@
                   <div class="tile">
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/mongodb.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           MONGODB / MONGODB COMPASS
                         </p>
@@ -1273,6 +1449,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/mongoose.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           MONGOOSE
                         </p>
@@ -1283,6 +1464,11 @@
                     </div>
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/dynamodb.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           DYNAMODB AWS
                         </p>
@@ -1291,6 +1477,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/graphql.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           GRAPHQL
                         </p>
@@ -1314,6 +1505,11 @@
                   <div class="tile">
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/browserstack.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           BROWSERSTACK
                         </p>
@@ -1322,6 +1518,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/pagespeed.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           PAGESPEED INSIGHTS
                         </p>
@@ -1332,6 +1533,11 @@
                     </div>
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/devtools.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           CHROME DEV TOOLS
                         </p>
@@ -1340,6 +1546,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/gtmetrix.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           GTMETRIX
                         </p>
@@ -1363,6 +1574,11 @@
                   <div class="tile">
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/aws.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           AMAZON WEB SERVICES
                         </p>
@@ -1371,6 +1587,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/heroku.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           HEROKU
                         </p>
@@ -1379,6 +1600,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/git.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           GIT | GITHUB
                         </p>
@@ -1387,6 +1613,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/codepen.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           CODEPEN
                         </p>
@@ -1395,6 +1626,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/vscode.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           VISUAL STUDIO CODE
                         </p>
@@ -1405,14 +1641,11 @@
                     </div>
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
-                        <p class="title is-size-4-desktop is-size-5-mobile">
-                          DIGITAL OCEAN
-                        </p>
-                        <p class="subtitle is-size-5-desktop is-size-6-mobile">
-                          ADVANCED | 3 YEARS
-                        </p>
-                      </article>
-                      <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/netlify.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           NETLIFY
                         </p>
@@ -1421,6 +1654,25 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/digitalocean.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
+                        <p class="title is-size-4-desktop is-size-5-mobile">
+                          DIGITAL OCEAN
+                        </p>
+                        <p class="subtitle is-size-5-desktop is-size-6-mobile">
+                          ADVANCED | 3 YEARS
+                        </p>
+                      </article>
+                      
+                      <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/gitlab.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           GITLAB
                         </p>
@@ -1429,6 +1681,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/bitbucket.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           BITBUCKET
                         </p>
@@ -1437,6 +1694,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/github.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           GITHUB DESKTOP
                         </p>
@@ -1459,14 +1721,25 @@
                   <div class="tile">
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/godaddy.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
-                          SHOPIFY
+                          GODADDY
                         </p>
                         <p class="subtitle is-size-5-desktop is-size-6-mobile">
-                          ADVANCED | 2 YEARS
+                          ADVANCED | 3 YEARS
                         </p>
                       </article>
+                      
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/squarespace.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           SQUARESPACE
                         </p>
@@ -1475,6 +1748,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/googlesites.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           GOOGLE SITES
                         </p>
@@ -1485,6 +1763,11 @@
                     </div>
                     <div class="tile is-parent is-vertical mt-5">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/wix.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           WIX
                         </p>
@@ -1493,6 +1776,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/weebly.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
                           WEEBLY
                         </p>
@@ -1501,11 +1789,16 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/shopify.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-4-desktop is-size-5-mobile">
-                          GODADDY
+                          SHOPIFY
                         </p>
                         <p class="subtitle is-size-5-desktop is-size-6-mobile">
-                          ADVANCED | 3 YEARS
+                          ADVANCED | 2 YEARS
                         </p>
                       </article>
                     </div>
@@ -1526,6 +1819,11 @@
                     <div class="tile is-parent is-vertical">
                       <br />
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/abc.svg" style="width: 100%;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           RESPONSIBLE VENDORS TRAINING
                         </p>
@@ -1534,6 +1832,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/rndc.svg" style="width: 100%;"/>
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           MIXOLOGY LEVEL 1
                         </p>
@@ -1545,6 +1848,11 @@
                     <div class="tile is-parent is-vertical">
                       <br />
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/abc.svg" style="width: 100%;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           BARTENDING
                         </p>
@@ -1553,6 +1861,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/nra.svg" style="width: 100%;"/>
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           BASIC PISTOL SAFETY
                         </p>
@@ -1661,6 +1974,11 @@
                   <div class="tile">
                     <div class="tile is-parent is-vertical is-4">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/html.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           HTML / HMTL5
                         </p>
@@ -1669,6 +1987,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/pugjs.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           PUG
                         </p>
@@ -1677,14 +2000,24 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/json.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
-                          SOLIDITY
+                          JSON
                         </p>
                         <p class="subtitle is-size-5-desktop is-size-6-mobile">
-                          LEARNING NOW
+                          ADVANCED | 1 YEAR
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/golang.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           GOLANG
                         </p>
@@ -1693,6 +2026,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/emmet.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           EMMET
                         </p>
@@ -1703,6 +2041,11 @@
                     </div>
                     <div class="tile is-parent is-vertical is-4">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/css.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           CSS / CSS3
                         </p>
@@ -1711,6 +2054,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/sass.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           SASS / SCSS
                         </p>
@@ -1719,6 +2067,24 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/jsx.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
+                        <p class="title is-size-3-desktop is-size-4-mobile">
+                          JSX
+                        </p>
+                        <p class="subtitle is-size-5-desktop is-size-6-mobile">
+                          INTERMEDIATE | 2 YEARS
+                        </p>
+                      </article>
+                      <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/typescript.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           TYPESCRIPT
                         </p>
@@ -1727,6 +2093,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/swift.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           SWIFT
                         </p>
@@ -1734,17 +2105,15 @@
                           BEGINNER | LESS THAN 1 YEAR
                         </p>
                       </article>
-                      <article class="tile is-child notification is-success">
-                        <p class="title is-size-3-desktop is-size-4-mobile">
-                          JSX
-                        </p>
-                        <p class="subtitle is-size-5-desktop is-size-6-mobile">
-                          INTERMEDIATE | 2 YEARS
-                        </p>
-                      </article>
+                      
                     </div>
                     <div class="tile is-parent is-vertical is-4">
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/javascript.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           JAVASCRIPT
                         </p>
@@ -1753,14 +2122,25 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/solidity.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
-                          JSON
+                          SOLIDITY
                         </p>
                         <p class="subtitle is-size-5-desktop is-size-6-mobile">
-                          ADVANCED | 1 YEAR
+                          LEARNING NOW
                         </p>
                       </article>
+                      
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/bson.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           BSON
                         </p>
@@ -1769,6 +2149,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/kotlin.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           KOTLIN
                         </p>
@@ -1777,6 +2162,11 @@
                         </p>
                       </article>
                       <article class="tile is-child notification is-success">
+                        <div class="center" style="display: flex; justify-content: center;">
+                          <figure class="image pb-5">
+                            <img src="img/markdown.svg" style="width: 50px;" />
+                          </figure>
+                        </div>
                         <p class="title is-size-3-desktop is-size-4-mobile">
                           MARKDOWN
                         </p>
