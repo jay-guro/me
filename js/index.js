@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
 // ParticlesJS
 window.onload = function () {
    particlesJS.load("tsparticles-js", "js/particles.json", function () {
-      console.log("callback - particles.js config loaded");
    });
 };
 
@@ -50,3 +49,95 @@ $(document).ready(function () {
       $('body').addClass('loaded');
    }, 1500);
 });
+
+// Modal
+class BulmaModal {
+	constructor(selector) {
+		this.elem = document.querySelector(selector)
+		this.close_data()
+	}
+	
+	show() {
+		this.elem.classList.toggle('is-active')
+		this.on_show()
+	}
+	
+	close() {
+		this.elem.classList.toggle('is-active')
+		this.on_close()
+	}
+	
+	close_data() {
+		var modalClose = this.elem.querySelectorAll("[data-bulma-modal='close'], .modal-background")
+		var that = this
+		modalClose.forEach(function(e) {
+			e.addEventListener("click", function() {
+				
+				that.elem.classList.toggle('is-active')
+
+				var event = new Event('modal:close')
+
+				that.elem.dispatchEvent(event);
+			})
+		})
+	}
+	
+	on_show() {
+		var event = new Event('modal:show')
+	
+		this.elem.dispatchEvent(event);
+	}
+	
+	on_close() {
+		var event = new Event('modal:close')
+	
+		this.elem.dispatchEvent(event);
+	}
+	
+	addEventListener(event, callback) {
+		this.elem.addEventListener(event, callback)
+	}
+}
+
+var modal1 = document.querySelector("#karmafixer")
+var modal2 = document.querySelector("#tsande")
+var modal3 = document.querySelector("#prepagohunters")
+var kfm = new BulmaModal("#kfModal")
+var tsem = new BulmaModal("#tseModal")
+var phm = new BulmaModal("#phModal")
+
+modal1.addEventListener("click", function () {
+  kfm.show()
+})
+
+modal2.addEventListener("click", function () {
+  tsem.show()
+})
+
+modal3.addEventListener("click", function () {
+  phm.show()
+})
+
+kfm.addEventListener('modal:show', function() {
+	console.log("opened")
+})
+
+kfm.addEventListener("modal:close", function() {
+	console.log("closed")
+})
+
+tsem.addEventListener('modal:show', function() {
+	console.log("opened")
+})
+
+tsem.addEventListener("modal:close", function() {
+	console.log("closed")
+})
+
+phm.addEventListener('modal:show', function() {
+	console.log("opened")
+})
+
+phm.addEventListener("modal:close", function() {
+	console.log("closed")
+})
