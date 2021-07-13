@@ -102,9 +102,11 @@ class BulmaModal {
 var modal1 = document.querySelector("#karmafixer")
 var modal2 = document.querySelector("#tsande")
 var modal3 = document.querySelector("#prepagohunters")
+var resume = document.querySelector("#resumeSelector")
 var kfm = new BulmaModal("#kfModal")
 var tsem = new BulmaModal("#tseModal")
 var phm = new BulmaModal("#phModal")
+var resumeSelector = new BulmaModal("#resumeModal")
 
 modal1.addEventListener("click", function () {
   kfm.show()
@@ -117,6 +119,10 @@ modal2.addEventListener("click", function () {
 modal3.addEventListener("click", function () {
   phm.show()
 })
+
+resume.addEventListener("click", function () {
+	resumeSelector.show()
+  })
 
 kfm.addEventListener('modal:show', function() {
 	console.log("opened")
@@ -139,5 +145,13 @@ phm.addEventListener('modal:show', function() {
 })
 
 phm.addEventListener("modal:close", function() {
+	console.log("closed")
+})
+
+resumeSelector.addEventListener('modal:show', function() {
+	console.log("opened")
+})
+
+resumeSelector.addEventListener("modal:close", function() {
 	console.log("closed")
 })

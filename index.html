@@ -58,7 +58,7 @@
         <div class="navbar-item">
           <div class="field is-grouped">
             <p class="control">
-              <a class="button is-rounded is-outlined is-success" download="resume.pdf" href="resume.pdf">
+              <a class="button is-rounded is-outlined is-success" id="resumeSelector">
                 <span class="icon">
                   <i class="fas fa-file-download"></i>
                 </span>
@@ -1752,6 +1752,34 @@
         <a href="https://www.latinalineup.com">
           <figure class="image">
             <img src="img/latinalineup.svg" />
+          </figure>
+        </a>
+      </section>
+    </div>
+  </div>
+  <div class="modal" id="resumeModal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title" style="color:#fff !important;font-weight:bold;">SELECT A RESUME</p>
+        <button class="delete" aria-label="close" data-bulma-modal="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <a download="resume-web.pdf" href="resume-web.pdf">
+          <figure class="image">
+            <img src="img/resume-web.svg" />
+          </figure>
+        </a>
+        <br>
+        <a download="resume-frontend.pdf" href="resume-frontend.pdf">
+          <figure class="image">
+            <img src="img/resume-frontend.svg" />
+          </figure>
+        </a>
+        <br>
+        <a download="resume-design.pdf" href="resume-design.pdf">
+          <figure class="image">
+            <img src="img/resume-design.svg" />
           </figure>
         </a>
       </section>
